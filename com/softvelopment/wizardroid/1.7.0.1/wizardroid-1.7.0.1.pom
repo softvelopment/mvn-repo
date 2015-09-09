@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <artifactId>oss-parent</artifactId>
+    <groupId>org.sonatype.oss</groupId>
+    <version>7</version>
+  </parent>
+  <groupId>com.softvelopment</groupId>
+  <artifactId>wizardroid</artifactId>
+  <version>1.7.0.1</version>
+  <packaging>aar</packaging>
+  <name>WizarDroid</name>
+  <description>Lightweight Android library for creating step by step wizards</description>
+  <url>http://wizardroid.softvelopment.com</url>
+  <organization>
+    <name>Softvelopment LLC</name>
+    <url>http://www.softvelopment.com</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://raw.github.com/softvelopment/WizarDroid/develop/license</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>softvelopment-automator</id>
+      <name>Softvelopment Developer</name>
+      <email>info@softvelopment.com</email>
+    </developer>
+  </developers>
+  <issueManagement>
+    <system>GitHub Issues</system>
+    <url>https://github.com/softvelopment/wizardroid/issues</url>
+  </issueManagement>
+  <scm>
+    <connection>scm:git://github.com/softvelopment/WizarDroid.git</connection>
+    <developerConnection>scm:git://github.com/softvelopment/WizarDroid.git</developerConnection>
+    <url>http://www.github.com/softvelopment/wizardroid</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.springframework.android</groupId>
+      <artifactId>spring-android-rest-template</artifactId>
+      <version>2.0.0.M1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>22.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>commons-validator</groupId>
+      <artifactId>commons-validator</artifactId>
+      <version>1.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
